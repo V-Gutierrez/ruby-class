@@ -12,6 +12,7 @@ puts XYZ, xyz
 class PI
   VALUE = 3.14
   # a non constant value here cannot be read before initializing.
+  # value = 333 => undefined if accessed without initializing
 end
 
 puts PI::VALUE  # no need to instance

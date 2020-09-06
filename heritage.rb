@@ -73,3 +73,6 @@ puts "Not yet created: ", Introducer.beforeInstance
 
 I = Introducer.new
 puts "Created:", I.introduce
+
+# ---------------------------------- Mixins (pseudo multiple heritage)
+# merge modules and classes to make a paralel heritage
